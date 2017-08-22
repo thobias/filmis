@@ -1,0 +1,28 @@
+{
+  "name": "filmis",
+  "version": "1.0.0",
+  "description": "A GUI for the NYT movie reviews API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node_modules/.bin/webpack --config webpack.config.js --watch",
+    "build": "node_modules/.bin/webpack"
+  },
+  "keywords": [
+    "movie",
+    "reviews"
+  ],
+  "author": "Thobias Bergstrom <thobias.bergstrom@neodev.se>",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^3.5.5"
+  },
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-modal": "^2.2.4"
+  }
+}
