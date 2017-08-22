@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "A GUI for the NYT movie reviews API",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thobias/filmis.git"
+  },
   "scripts": {
     "start": "node_modules/.bin/webpack --config webpack.config.js --watch",
     "build": "node_modules/.bin/webpack"
